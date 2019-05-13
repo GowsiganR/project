@@ -12,6 +12,7 @@
 <form method="post" action="<c:url value="/perform_login"/>">
 <%@ include file="Header.jsp"%>
 ${ErrorMessage}
+<div class="container center_div">
 <table>
 <tr>
 <td>User Name</td>
