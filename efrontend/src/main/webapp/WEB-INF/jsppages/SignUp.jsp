@@ -8,7 +8,7 @@
 </head>
 <body>
 <%@ include file="Header.jsp"%>
-<form method="post" action="<c:url value="/addSignUp"/>">
+<form class="bg" method="post" action="<c:url value="/addSignUp"/>">
 <table>
 <td>Name</td>
 <td><input name="Name"></td>

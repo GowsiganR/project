@@ -11,7 +11,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstarp.min.js"></script>
 <title>Product</title>
 </head>
-<body>
+<body class="bg">
 <%@ include file="Header.jsp"%>
 <div class="container">
 <table>

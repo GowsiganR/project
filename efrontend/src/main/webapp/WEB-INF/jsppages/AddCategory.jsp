@@ -15,7 +15,7 @@
 <body>
 <%@ include file="Header.jsp"%>
 <h4>Add Category</h4>
-<form method="post" action="<c:url value="/addCategory"/>">
+<form class="bg" method="post" action="<c:url value="/addCategory"/>">
 <table class="table table-hover">
 <tr>
 <td>Category Name</td>

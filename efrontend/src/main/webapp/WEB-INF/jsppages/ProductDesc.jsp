@@ -9,7 +9,7 @@
 </head>
 <body>
 <%@ include file="Header.jsp"%>
-<form method="post" action="<c:url value="/addCart/${product.productId}"/>">
+<form class="bg" method="post" action="<c:url value="/addCart/${product.productId}"/>">
 <table>
 <tr>
 <td style="text-transform:uppercase;" id="name">${product.productName}</td>

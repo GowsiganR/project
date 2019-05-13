@@ -9,7 +9,7 @@
 <title>loginPage</title>
 </head>
 <body>
-<form method="post" action="<c:url value="/perform_login"/>">
+<form class="bg" method="post" action="<c:url value="/perform_login"/>">
 <%@ include file="Header.jsp"%>
 ${ErrorMessage}
 <div class="container center_div">

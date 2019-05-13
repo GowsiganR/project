@@ -17,7 +17,8 @@ background-color:grey;
 }
 </style>
 </head>
-<body style="margin: 0;padding: 0;font-family: sans-serif;background: #8e8b8d;">
+<body class="bg">
+
 <div class="container-fluid">
 <center><h3>ESHOPPING</h3></center>
 </div>

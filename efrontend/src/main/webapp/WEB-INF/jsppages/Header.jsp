@@ -10,6 +10,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstarp.min.js"></script>
 <style>
+.bg { 
+  background-image: url("<c:url value="/resources/images/bg.jpg"/>");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
  #hom { color:white; }
 #link a:hover { color:grey; background-color:white; }
 </style>
@@ -18,10 +27,9 @@
 <nav class="navbar navbar-inverse" id="navb">
   <div class="container-fluid" id="link">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" id="hom">Shopping</a>
+      <a class="navbar-brand" href="<c:url value="/"/>" id="hom">Shopping</a>
     </div>
    <ul class="nav navbar-nav">
-      <li><a href="<c:url value="/"/>" id="hom">Home</a></li>
        <c:if test="${username=='Admin'}">
       <li><a href="<c:url value="/AddCategory"/>" id="hom">Manage Category</a></li>
       <li><a href="<c:url value="/AddSupplier"/>" id="hom">Manage Supplier</a></li>

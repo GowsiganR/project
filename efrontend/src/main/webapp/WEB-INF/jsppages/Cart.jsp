@@ -14,7 +14,7 @@
 #sel { width:50px; }
 </style>
 </head>
-<body>
+<body class="bg">
 <%@ include file="Header.jsp"%>
 <div class="container">
 <table class="table table-hover">
@@ -26,7 +26,7 @@
 </tr>
 <c:forEach items="${listCarts}" var="cart">
 <tr>
-<form method="post" action="<c:url value="/updatecart/${cart.cartId}"/>">
+<form class="bg" method="post" action="<c:url value="/updatecart/${cart.cartId}"/>">
 <td><img src="<c:url value="/resources/images/${cart.productId}.jpg"/>" width="75px" height="75px"><br>
 <c:if test="${Cart.cartId==cart.cartId}">
 ${alert}

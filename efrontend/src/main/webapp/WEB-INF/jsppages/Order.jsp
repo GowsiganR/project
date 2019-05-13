@@ -10,7 +10,7 @@
 <body>
 <%@ include file="Header.jsp"%>
 <div class="container">
-<form method="post" action="<c:url value="/paymentconfirm"/>">
+<form class="bg" method="post" action="<c:url value="/paymentconfirm"/>">
 <table class="table table-hover">
 <tr>
 <td>Product Image</td>

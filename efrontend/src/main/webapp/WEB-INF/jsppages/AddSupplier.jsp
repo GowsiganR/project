@@ -14,7 +14,7 @@
 <body>
 <%@ include file="Header.jsp"%>
 <h4>Add Supplier</h4>
-<form method="post" action="<c:url value="/addSupplier"/>">
+<form class="bg" method="post" action="<c:url value="/addSupplier"/>">
 <table class="table table-hover">
 <tr>
 <td>Supplier Name</td>

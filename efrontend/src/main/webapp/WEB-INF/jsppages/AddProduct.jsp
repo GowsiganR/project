@@ -17,7 +17,7 @@
 <body>
 <%@ include file="Header.jsp"%>
 <h4>Add Product</h4>
-<form method="post" enctype="multipart/form-data" action="<c:url value="/addProduct"/>">
+<form class="bg" method="post" enctype="multipart/form-data" action="<c:url value="/addProduct"/>">
 <table class="table table-hover">
 <tr>
 <td>Select Category:</td>
